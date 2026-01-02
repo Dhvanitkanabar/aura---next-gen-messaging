@@ -1,0 +1,8 @@
+{
+  "name": "Aura - Next-Gen Messaging",
+  "description": "A high-fidelity messaging experience featuring AI intelligence, real-time WebRTC calling, and a premium glassmorphism interface.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
